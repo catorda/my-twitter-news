@@ -1,0 +1,31 @@
+# Your access token for your twitter application 
+my_access_token = dict(
+	access_token = '',
+	access_token_secret = '', 
+	owner = '', 
+	owner_id = ''
+)
+
+# Your application registered with the twitter API
+consumer = dict(
+	key = '',
+	secret = '',
+	owner = '', 
+	owner_id = ''
+)
+
+# Keywords configuration 
+unwanted_words = ['you','the','RT','a','on','me', 'i', 'too', 'of', 'this']
+
+# Email configuration 
+email = dict(
+	from_addr = 'donotreploy@mytwitternews.com',
+	subject = '[My Twitter News] Trending keywords',
+	to = ''
+)
+email_server = dict(
+	host = 'smtp.gmail.com',
+	port = 587,
+	login = '',
+	password = ''
+)
